@@ -77,3 +77,24 @@ footer {
 nav a:hover {
     color: #d9f99d;
 }
+@media (max-width: 700px) {
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        width: 80%;
+    }
+
+    .hero h2 {
+        font-size: 26px;
+    }
+
+}
