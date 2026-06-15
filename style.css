@@ -52,3 +52,28 @@ footer {
     background-color: #1f2933;
     color: white;
 }
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.service {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease,
+                background-color 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-6px);
+    background-color: #eff6ff;
+}
+
+nav a:hover {
+    color: #d9f99d;
+}
